@@ -1,0 +1,156 @@
+@charset "Windows-1252";
+/**
+ * Created by:
+ *                  User:    Stellan Lindell
+ *                  Company: Elicit AB
+ *                  URL:     http://elicit.se
+ *                  Date:    2014-02-10
+ *                  Time:    13:54
+ *
+ * Copyright © | Elicit AB - Effektiva IT-lösningar™ | All rights reserved.
+ */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  background-color: white;
+  font-family: "Helvetica Rounded Bold", Helvetica, serif;
+  font-size: 11pt;
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5em;
+  text-shadow: 0 0 1px rgba(51, 51, 51, 0.2);
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Helvetica World", Helvetica, serif;
+  font-size: 1em;
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: normal;
+  text-shadow: 0 0 1px rgba(51, 51, 51, 0.2);
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+body h1 {
+  font-size: 2em;
+}
+body h2 {
+  font-size: 1.8em;
+}
+body h3 {
+  font-size: 1.6em;
+}
+body h4 {
+  font-size: 1.4em;
+}
+body h5 {
+  font-size: 1.2em;
+}
+body h6 {
+  font-size: 1em;
+}
+body a {
+  color: black;
+  text-decoration: none;
+}
+body a:hover {
+  color: black;
+  text-decoration: underline;
+}
+body div#bakhuset_logo {
+  width: 600px;
+  height: 403px;
+  background-color: transparent;
+  background-position: center center;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  /* Opera 9.5 */
+  /* Safari 3-4 */
+  background-repeat: no-repeat;
+  -webkit-background-origin: padding-box;
+  -moz-background-origin: padding-box;
+  background-origin: padding-box;
+  -moz-background-clip: border-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  background-attachment: scroll;
+  background-image: url("../img/logo.png");
+  margin: 70px auto;
+}
+body div.errorPage {
+  width: auto;
+  height: 90%;
+  margin: auto;
+  padding: 2%;
+}
+body div.errorPage, body div.errorPage h1, body div.errorPage h2, body div.errorPage h3, body div.errorPage h4, body div.errorPage h5, body div.errorPage h6 {
+  font-family: "Helvetica Rounded Bold", Helvetica, serif;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: normal;
+  text-shadow: 0 0 1px rgba(51, 51, 51, 0.2);
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+body .displayNone {
+  display: none !important;
+}
+
+/* Gotham Book */
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/GothamRegular/Gotham-Book.eot");
+  src: url("../fonts/GothamRegular/Gotham-Book.woff") format("woff"), url("../fonts/GothamRegular/Gotham-Book.ttf") format("truetype"), url("../fonts/GothamRegular/Gotham-Book.otf") format("opentype"), url("../fonts/GothamRegular/Gotham-Book.svg#Gotham") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gotham Book Italic */
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/GothamRegular/Gotham-BookItalic.eot");
+  src: url("../fonts/GothamRegular/Gotham-BookItalic.woff") format("woff"), url("../fonts/GothamRegular/Gotham-BookItalic.ttf") format("truetype"), url("../fonts/GothamRegular/Gotham-BookItalic.otf") format("opentype"), url("../fonts/GothamRegular/Gotham-BookItalic.svg#Gotham") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+/* Gotham Bold */
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/GothamRegular/Gotham-Bold.eot");
+  src: url("../fonts/GothamRegular/Gotham-Bold.woff") format("woff"), url("../fonts/GothamRegular/Gotham-Bold.ttf") format("truetype"), url("../fonts/GothamRegular/Gotham-Bold.otf") format("opentype"), url("../fonts/GothamRegular/Gotham-Bold.svg#Gotham") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+/* Gotham Bold Italic */
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/GothamRegular/Gotham-BoldItalic.eot");
+  src: url("../fonts/GothamRegular/Gotham-BoldItalic.woff") format("woff"), url("../fonts/GothamRegular/Gotham-BoldItalic.ttf") format("truetype"), url("../fonts/GothamRegular/Gotham-BoldItalic.otf") format("opentype"), url("../fonts/GothamRegular/Gotham-BoldItalic.svg#Gotham") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}

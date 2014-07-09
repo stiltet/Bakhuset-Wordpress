@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/old/assets/scss/app.scss" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/old/assets/scss/fonts.scss" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/old/assets/scss/functions.scss" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/old/assets/scss/mixins.scss" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/old/assets/scss/variables.scss" charset="windows-1252" />
+  </component>
+</project>
+

@@ -1,0 +1,72 @@
+@import "variables.scss";
+@import "functions.scss";
+@import "mixins.scss";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  @include color($type:text);
+  @include background($color:$defaultBackgroundColor);
+  @include text($size: $defaultFontSize, $weight: normal, $style: normal, $decoration: none, $transform: none, $wordWrap: normal, $lineHeight:1.5em);
+  margin: 0;
+  padding:0;
+  overflow:hidden;
+
+
+  h1, h2, h3, h4, h5, h6  {
+    @include text($type:header);
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+  h4 {
+    font-size: 1.4em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+  h6 {
+    font-size: 1em;
+  }
+
+  a {
+    @include color($color:$defaultLinkColor);
+    text-decoration:none;
+    &:hover {
+      @include color($color:$defaultLinkHoverColor);
+      text-decoration:underline;
+    }
+  }
+
+  div#bakhuset_logo {
+    width:600px;
+    height:403px;
+    @include background($color:transparent,$sizeWidth:contain,$image:"../img/logo.png");
+    margin:70px auto;
+  }
+
+  div.errorPage {
+    width: auto;
+    height:90%;
+    margin:auto;
+    padding: 2%;
+    &, h1, h2, h3, h4, h5, h6 {
+      @include text($size: default,$align:center);
+    }
+  }
+
+  .displayNone  {
+    display: none !important;
+  }
+}
